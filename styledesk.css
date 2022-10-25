@@ -1,0 +1,35 @@
+.card{
+    flex-direction:row;
+    max-width: 800px;
+    display: grid;
+    max-height: 350px;
+    grid-template-columns: 40% 55%;
+    grid-template-rows: 70% 30%;
+}
+.card--foto{
+    width: 130%;
+    min-height: 300px;
+
+}
+.foto{
+    height: 100%;
+    grid-row: 1/5;
+    margin-right: 20px;
+}
+.share{
+    min-height: 20px;
+    width: 12rem;
+    right: 0px;
+    bottom: 5rem;
+    border-radius: 1rem;
+    overflow: unset;
+    justify-content: space-between;
+}
+h1{
+    font-size: 1.2rem;
+    
+}
+.share>p{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}

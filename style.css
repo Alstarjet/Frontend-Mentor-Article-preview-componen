@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+main{
+    width: auto;
+    height:95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Manrope', sans-serif;;
+    color: hsl(217, 19%, 35%);
+    background: hsl(210, 46%, 95%)
+}
+p{
+    color: hsl(214, 17%, 51%);
+    font-size: 0.9rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 390px;
+    min-width: 300px;
+    max-height: 600px;
+    background-color:white;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.card--foto{
+    width: 100%
+}
+.foto{
+    height: 14rem;
+    overflow: hidden;
+}
+h1{
+    font-size: 1rem; 
+}
+h2{
+    font-size: 1rem;
+    margin: 0;
+    margin-right: 2rem;
+}
+.textos{
+    padding: 1rem 2rem 1rem;
+}
+.perfil{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}
+.info--perfil>p{
+    margin: 0;
+}
+.perfilfoto{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+.iconoshare{
+    background-color: hsl(210, 46%, 95%);
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 1.1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+.iconoshare>img{
+    bottom: 0.6rem;
+    position: absolute;
+    width: 1.3rem;
+    height: 1.1rem;
+    cursor: pointer;
+}
+.icons--share>img{
+    width: 100%;
+    margin-right: 1rem;
+}
+.share{
+    justify-content:flex-start;
+    background-color: hsl(217, 19%, 35%);
+    position:absolute;
+    width: 88%;
+    bottom: 0px;
+}
+.share>p{
+    font-size: 1rem;
+    margin-right: 1.3rem;
+}
+.icons--share{
+    display: flex;
+    align-items: center;
+    
+}
+.invisicle{
+    display: none;
+}
